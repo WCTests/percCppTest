@@ -15,6 +15,6 @@ add_executable(PercolationVisualizer  ${percolation_SRCS})
 include_directories(./include)
 link_directories(./lib)
 #connect all the libraries
-set(allegro5_LIBS ${CMAKE_SOURCE_DIR}/lib/allegro5/liballegro-5.0.10-monolith-mt.a)
+set(allegro5_LIBS ${CMAKE_SOURCE_DIR}/lib/allegro5/liballegro-5.0.10-monolith-md.a)
 
 target_link_libraries(PercolationVisualizer ${allegro5_LIBS})
